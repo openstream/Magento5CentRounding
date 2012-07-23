@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Openstream_RappenRounding>
+            <version>0.1.0</version>
+        </Openstream_RappenRounding>
+    </modules>
+    <global>
+        <models>
+            <rappenrounding>
+                <class>Openstream_RappenRounding_Model</class>
+            </rappenrounding>
+            <core>
+                <rewrite>
+                    <store>Openstream_RappenRounding_Model_Store</store>
+                </rewrite>
+            </core>
+        </models>
+        <helpers>
+            <rappenrounding>
+                <class>Openstream_RappenRounding_Helper</class>
+            </rappenrounding>
+        </helpers>
+    </global>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Openstream_RappenRounding>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Tax />
+            </depends>
+        </Openstream_RappenRounding>
+    </modules>
+</config>
