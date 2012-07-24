@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Openstream_RappenRounding>
-            <version>0.1.0</version>
+            <version>0.2.0</version>
         </Openstream_RappenRounding>
     </modules>
     <global>
@@ -15,6 +15,16 @@
                     <store>Openstream_RappenRounding_Model_Store</store>
                 </rewrite>
             </core>
+            <tax>
+                <rewrite>
+                    <sales_total_quote_subtotal>Openstream_RappenRounding_Model_TaxSalesTotalQuoteSubtotal</sales_total_quote_subtotal>
+                </rewrite>
+            </tax>
+            <sales>
+                <rewrite>
+                    <quote_address_total_grand>Openstream_RappenRounding_Model_SalesQuoteAddressTotalGrand</quote_address_total_grand>
+                </rewrite>
+            </sales>
         </models>
         <helpers>
             <rappenrounding>
@@ -22,4 +32,23 @@
             </rappenrounding>
         </helpers>
     </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Openstream_RappenRounding>
+                    <files>
+                        <default>Openstream_RappenRounding.csv</default>
+                    </files>
+                </Openstream_RappenRounding>
+            </modules>
+        </translate>
+    </adminhtml>
+    <default>
+        <currency>
+            <rappenrounding>
+                <enabled>0</enabled>
+                <where>all</where>
+            </rappenrounding>
+        </currency>
+    </default>
 </config>
