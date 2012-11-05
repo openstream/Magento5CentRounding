@@ -19,7 +19,7 @@ class Openstream_RappenRounding_Model_SalesQuoteAddressTotalGrand extends Mage_S
         $totals     = array_sum($address->getAllTotalAmounts());
         $baseTotals = array_sum($address->getAllBaseTotalAmounts());
 
-        if ($helper->getScope() == 'totals') {
+        if ($helper->getScope() == 'totals' || $helper->getScope() == 'all') {
             $address->setGrandTotal($helper->_roundBase5($grandTotal+$totals));
             $address->setBaseGrandTotal($helper->_roundBase5($baseGrandTotal+$baseTotals));
         } else {
