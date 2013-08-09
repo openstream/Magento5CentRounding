@@ -1,0 +1,9 @@
+{
+    "name": "openstream/rappenrounding",
+    "type": "magento-module",
+    "description": "Magento 5-Rappen-Rundung for Swiss Magento Merchants",
+    "homepage": "https://github.com/avstudnitz/Magento5CentRounding",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
