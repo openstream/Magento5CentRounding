@@ -1,0 +1,5 @@
+app/etc/modules/Openstream_RappenRounding.xml           app/etc/modules/Openstream_RappenRounding.xml
+app/code/community/Openstream/RappenRounding            app/code/community/Openstream/RappenRounding
+app/locale/de_CH/Openstream_RappenRounding.csv          app/locale/de_CH/Openstream_RappenRounding.csv
+app/locale/de_DE/Openstream_RappenRounding.csv          app/locale/de_DE/Openstream_RappenRounding.csv
+app/locale/en_US/Openstream_RappenRounding.csv          app/locale/en_US/Openstream_RappenRounding.csv
