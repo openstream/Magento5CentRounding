@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Openstream_RappenRounding>
-            <version>0.2.1</version>
+            <version>0.2.2</version>
         </Openstream_RappenRounding>
     </modules>
     <global>
@@ -46,7 +46,7 @@
     <default>
         <currency>
             <rappenrounding>
-                <enabled>0</enabled>
+                <enabled>1</enabled>
                 <where>all</where>
                 <enabled_for_currencies>CHF</enabled_for_currencies>
             </rappenrounding>
