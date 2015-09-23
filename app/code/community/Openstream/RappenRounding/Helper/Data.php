@@ -14,7 +14,7 @@ class Openstream_RappenRounding_Helper_Data extends Mage_Core_Helper_Data
         if (
             Mage::getStoreConfig('currency/rappenrounding/enabled') &&
             in_array(
-                Mage::app()->getStore()->getBaseCurrencyCode(),
+                Mage::app()->getStore()->getCurrentCurrencyCode(),
                 $enabledCurrencies
             )
         ) {
