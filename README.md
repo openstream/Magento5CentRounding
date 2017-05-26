@@ -7,7 +7,7 @@ After installing the extension, please log out of your Magento backend and re-lo
 
 System > Configuration > General > Currency Setup > 5 Rappen Rundung
 
-in order to enable the extension and set the rounding to either "All prices and totals" or "Totals only".
+in order to enable the extension and set the rounding to either "All prices and totals" (including invoices) or "Totals only".
 
 Credits:
 
